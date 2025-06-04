@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding: An Interactive Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.tsx" defer></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <main>
+        <section id="hero" class="vibe-section hero-section" aria-labelledby="hero-title">
+            <div class="content-wrapper">
+                <h1 id="hero-title">Vibe Coding</h1>
+                <p class="subtitle">Scroll to Begin Your Journey</p>
+                <p class="quirky-text">Unlock the ancient art of Vibe Coding. It's not about logic, it's about... well, vibes.</p>
+            </div>
+             <div class="scroll-indicator" aria-hidden="true">
+                <span></span>
+            </div>
+        </section>
+
+        <section id="zen" class="vibe-section" aria-labelledby="zen-title">
+            <div class="content-wrapper">
+                <h2 id="zen-title">The Zen of Simplicity</h2>
+                <div class="zen-circle-container">
+                    <svg class="zen-circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="40"/>
+                    </svg>
+                </div>
+                <p class="quirky-text">Vibe: Calm. Code that breathes. Less is more, unless more is more vibe. Align your chakras with your curly braces.</p>
+            </div>
+        </section>
+
+        <section id="chaos" class="vibe-section" aria-labelledby="chaos-title">
+            <div class="content-wrapper">
+                <h2 id="chaos-title">The Chaos Groove</h2>
+                <div class="chaos-elements-container">
+                    <div class="chaos-square"></div>
+                    <div class="chaos-square"></div>
+                    <div class="chaos-square"></div>
+                    <div class="chaos-square"></div>
+                    <div class="chaos-square"></div>
+                </div>
+                <p class="quirky-text">Vibe: Energetic. Embrace the beautiful mess. Your code is a Jackson Pollock, a free-jazz solo. If it <em>feels</em> right, it probably... might be.</p>
+            </div>
+        </section>
+
+        <section id="cosmic" class="vibe-section" aria-labelledby="cosmic-title">
+            <div class="content-wrapper">
+                <h2 id="cosmic-title">The Cosmic Hum</h2>
+                <div class="cosmic-cube-container">
+                    <div class="cosmic-cube">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <p class="quirky-text">Vibe: Contemplative. Connect your code to the universal algorithm. Ponder the <code>void</code>. Is your function truly returning, or is it merely a suggestion?</p>
+            </div>
+        </section>
+
+        <section id="quirky" class="vibe-section" aria-labelledby="quirky-title">
+            <div class="content-wrapper">
+                <h2 id="quirky-title">The Quirky Quirk</h2>
+                <div class="quirky-animations-container">
+                    <svg class="quirky-line" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 0 10 Q 25 0, 50 10 T 100 10" stroke="currentColor" fill="transparent" stroke-width="2"/>
+                    </svg>
+                    <div class="quirky-dot"></div>
+                     <svg class="quirky-triangle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="50,10 90,90 10,90" />
+                    </svg>
+                </div>
+                <p class="quirky-text">Vibe: Playful. Let your code giggle. Add an easter egg that only you understand. Why? Because vibes, that's why.</p>
+            </div>
+        </section>
+
+        <section id="signature" class="vibe-section" aria-labelledby="signature-title">
+            <div class="content-wrapper">
+                <h2 id="signature-title">Your Vibe Signature</h2>
+                <p class="quirky-text">You've journeyed through the vibes. What frequency are you coding on today?</p>
+                <button id="vibe-generator-button" aria-live="polite" aria-controls="vibe-output">Reveal My Current Coding Vibe</button>
+                <p id="vibe-output" class="vibe-output-text" aria-live="assertive"></p>
+                <p class="quirky-text conclusion">Go forth and vibe code.</p>
+            </div>
+        </section>
+    </main>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
